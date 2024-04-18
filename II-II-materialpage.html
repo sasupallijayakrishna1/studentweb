@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>subject Materials page</title>
+    <style>
+
+.main{
+    height: 200px;
+    width: auto;
+    background-image:url("now3.avif");
+    background-size:cover;
+}
+.h1{
+    font-size: 50px;
+    text-align: center;
+    
+
+    font-family:Courier;
+}
+.subt{
+    
+    color: #ff00ff;
+    font-size: 40px;
+    text-align:center;
+    
+
+
+}
+*{
+    padding:0;
+    margin:0;
+}
+
+.index
+{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+}
+.Home
+{
+    width: 15%;
+    height: 30px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    float: left;
+    margin-top: 19px;
+    margin-left: 2%;
+}
+.Subject
+{
+    width: 25%;
+    height: 30px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    float: left;
+    margin-top: 19px;
+    margin-left: 1%;
+}
+.Syllabus
+{
+    width: 16%;
+    height: 30px;
+    font-size: 25px;
+    color:#f08804;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    float: left;
+    margin-top: 19px;
+    margin-left: 1%;
+}
+.Contact
+{
+    width: 17%;
+    height: 30px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    float: left;
+    margin-top: 19px;
+    margin-left: 1%;
+}
+.Gallery
+{
+    width: 17%;
+    height: 30px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    margin-top: 19px;
+    margin-left: 1%;
+}
+.Sub
+{
+  background-color:black; 
+  width: 150px;
+  height: 250px; 
+  padding-top: 25px;
+  border-radius: 5px;
+  text-align: center;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  z-index: 1;
+  display: none;
+
+}
+.Sub a{
+    text-decoration: none;
+    color: #f08804;
+}
+
+.Gallery:hover .Sub{
+    display: block;
+
+}
+.Home a{
+    color:#f08804;
+    text-decoration:none;
+}
+.Subject a{
+    color:#f08804;
+    text-decoration:none;
+}
+
+.Syllabus a{
+    color:#f08804;
+    text-decoration:none;
+}
+
+.Contact a{
+    color:#f08804;
+    text-decoration:none;
+}
+.dmain{
+
+
+width:100%;
+height:3000px;
+
+
+
+}
+.index1{
+
+}
+.u1{
+  width: 10%;
+    height: 3px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    
+   
+    float: left;
+    margin-top:135px;
+    margin-left: 25%;
+}
+
+.u2{
+  width: 10%;
+    height: 3px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    
+    
+    float: left;
+    margin-top: 135px;
+    margin-left: 0%;
+}
+
+
+.u3{
+  width: 10%;
+    height: 3px;
+    font-size: 25px;
+    color: #f08804;
+   text-align: center;
+
+     float: left;
+    margin-top: 135px;
+    margin-left: 0%;
+}
+
+
+.u4{
+  width: 10%;
+    height: 3px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+        float: left;
+    margin-top: 135px;
+    margin-left: 0%;
+}
+
+.u5{
+  width: 10%;
+    height: 3px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+        float: left;
+    margin-top: 135px;
+    margin-left: 0%;
+}
+
+.t1{
+position: absolute;
+  top: 400px;
+  left: 200px;
+
+
+
+}
+
+
+.index2{
+
+}
+.b1{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    
+   
+    float: left;
+    margin-top:90px;
+    margin-left: 25%;
+}
+
+.b2{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    
+    
+    float: left;
+    margin-top: 90px;
+    margin-left: 0%;
+}
+
+
+.b3{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+   text-align: center;
+
+     float: left;
+    margin-top: 90px;
+    margin-left: 0%;
+}
+
+
+.b4{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+        float: left;
+    margin-top: 90px;
+    margin-left: 0%;
+}
+
+.b5{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+        float: left;
+    margin-top: 90px;
+    margin-left: 0%;
+}
+
+.t2{
+position: absolute;
+  top: 500px;
+  left: 200px;
+
+
+
+}
+
+
+.index3{
+
+}
+.d1{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    
+   
+    float: left;
+    margin-top:100px;
+    margin-left: 25%;
+}
+
+.d2{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    
+    
+    float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+
+.d3{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+   text-align: center;
+
+     float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+
+.d4{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+        float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+.d5{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+        float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+.t3{
+position: absolute;
+  top: 600px;
+  left: 200px;
+
+
+
+}
+
+
+.index4{
+
+}
+.c1{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    
+   
+    float: left;
+    margin-top:100px;
+    margin-left: 25%;
+}
+
+.c2{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    
+    
+    float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+
+.c3{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    
+   text-align: center;
+
+     float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+
+.c4{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+        float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+.c5{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+        float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+.t4{
+position: absolute;
+  top: 700px;
+  left: 200px;
+
+
+
+}
+
+.index5{
+
+}
+.m1{
+  width: 15%;
+    height: 5px;
+    font-size: 25px;
+    
+    text-align: center;
+    
+   
+    float: left;
+    margin-top:100px;
+    margin-left: 25%;
+}
+
+.m2{
+  width: 15%;
+    height: 5px;
+    font-size: 25px;
+    
+    text-align: center;
+    
+    
+    float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+
+.m3{
+  width: 15%;
+    height: 5px;
+    font-size: 25px;
+    
+   text-align: center;
+
+     float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+
+.m4{
+  width: 15%;
+    height: 5px;
+    font-size: 25px;
+    
+   
+        float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+.m5{
+  width: 15%;
+    height: 5px;
+    font-size: 25px;
+    
+    text-align: center;
+        float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+.t5{
+position: absolute;
+  top: 800px;
+  left: 200px;
+
+
+
+}
+
+
+.index5{
+
+}
+.o1{
+  width: 15%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    
+   
+    float: left;
+    margin-top:100px;
+    margin-left: 25%;
+}
+
+.o2{
+  width: 15%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+    
+    
+    float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+
+.o3{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+   text-align: center;
+
+     float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+
+.o4{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+        float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+.o5{
+  width: 10%;
+    height: 5px;
+    font-size: 25px;
+    color: #f08804;
+    text-align: center;
+        float: left;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+
+.t6{
+position: absolute;
+  top: 900px;
+  left: 200px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </style>
+</head>
+<body background="bnb.jpg">
+    <div class="main">
+      <div class="h1"><strong>GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY&#127891</strong></div>
+       <div class="subt">(DEPT OF CYBER SECURITY & DATA SCIENCE)</div>
+    </div>
+    <header>
+        <div class="index" >
+            <div class="Home" ><a href="mainpage.html" >Home</a></div>
+            <div class="Subject" ><a href="subjectmaterial page.html" >Subject Materials</a></div>
+            <div class="Syllabus" ><a href="new.html" >Updates</a></div>
+            <div class="Contact" ><a href="contact1.html" >Contact us</a></div>
+            <div class="Gallery" >Gallery
+              <div class="Sub" >
+                 <a href="lifeskills2.html">Life skills</a><br><br>
+                 <a href="#" >College</a><br><br>
+                 <a href="#" >Photos</a><br><br>
+                 <a href="Department login.html">Department login</a>
+              </div>  
+              </div>      
+      </div>
+ </header>
+
+ <div class="dmain">
+      
+      <div class="t1"> <h1>1.OS:-</h1></div>
+        <div class="index1" >
+            <div class="u1" ><a href="unit1.pdf" >Unit-I</a></div>
+            <div class="u2" ><a href="os2.pdf" >unit-II</a></div>
+            <div class="u3" ><a href="os3.pdf" >Unit-III</a></div>
+            <div class="u4" ><a href="backi.jpg" >unit-IV</a></div>
+            <div class="u5" ><a href="backi.jpg" >unit-V</a></div>
+
+          </div> 
+
+          <div class="t2"><h1>2.DBMS:-</h1></div>
+        <div class="index2" >
+            <div class="b1" ><a href="dbms1.pdf" >unit-I</a></div>
+            <div class="b2" ><a href="dbms2.pdf" >unit-II</a></div>
+            <div class="b3" ><a href="dbms3.pdf" >Unit-III</a></div>
+            <div class="b4" ><a href="dbms4.pdf" >unit-IV</a></div>
+            <div class="b5" ><a href="dbms5.pdf" >unit-V</a></div>
+
+          </div> 
+
+             <div class="t3"><h1>3.DMS:-</h1></div>
+          <div class="index3" >
+            <div class="d1" ><a href="backi.jpg" >unit-I</a></div>
+            <div class="d2" ><a href="backi.jpg" >unit-II</a></div>
+            <div class="d3" ><a href="backi.jpg" >Unit-III</a></div>
+            <div class="d4" ><a href="backi.jpg" >unit-IV</a></div>
+            <div class="d5" ><a href="backi.jpg" >unit-V</a></div>
+
+          </div> 
+
+          <div class="t4"><h1>4.CNS:-</h1></div>
+             <div class="index4" >
+            <div class="c1" ><a href="cns1.pdf" >unit-I</a></div>
+            <div class="c2" ><a href="cns2.pdf" >unit-II</a></div>
+            <div class="c3" ><a href="backi.jpg" >Unit-III</a></div>
+            <div class="c4" ><a href="backi.jpg" >unit-IV</a></div>
+            <div class="c5" ><a href="backi.jpg" >unit-V</a></div>
+
+          </div> 
+
+         <div class="t5"><h1>5.MEFA:-</h1></div>
+
+
+             <div class="index5" >
+               
+                <div class="m1" >unit-I:  <a href="mefap1.pdf">P1</a>   <a href="mefap2.pdf" >P2</a></div>
+
+            <div class="m2" >unit-II:  <a href="mefa2p1.pdf">P1</a>   <a href="mefa2p2.pdf" >P2</a></div>
+
+            <div class="m3" >unit-III:  <a href="mefa3p1.pdf">P1</a>   <a href="mefa3p2.pdf" >P2</a></div>
+
+            <div class="m4" >unit-IV:  <a href="mefa4p1.pdf">P1</a>   <a href="mefa4p2.pdf" >P2</a></div>
+me
+            <div class="m5" ><a href="mefa5.pdf">unit-V</a></div>
+
+
+
+            
+          </div> 
+
+           <div class="t6"><h1>6.COI:-</h1></div>
+
+
+             <div class="index6" >
+            <div class="o1" ><a href="unit12.pdf" >unit----I,II</a></div>
+            <div class="o2" ><a href="unit34.pdf" >unit----III,IV</a></div>
+            
+
+          </div> 
+
+
+
+
+
+       
+  </div>
+
+</body>
+</html>
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
